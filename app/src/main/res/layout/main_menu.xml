@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/groupNavigation"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="0dp"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:background="@color/ob_color_white" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:paddingTop="1dp"
+        android:gravity="center"
+        android:id="@+id/ll_bottom"
+        android:orientation="vertical"
+        android:tag="0" >
+
+        <ImageView
+            android:id="@+id/navigationIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/navigation_group"
+             />
+
+        <TextView
+            android:id="@+id/navigationText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:gravity="center_horizontal"
+            android:textSize="11sp"
+            android:textColor="@drawable/navigation_text" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/groupNew"
+        android:layout_width="7dp"
+        android:layout_height="7dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="27dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/popcountbg"
+        android:visibility="gone"
+ />
+</RelativeLayout>
+

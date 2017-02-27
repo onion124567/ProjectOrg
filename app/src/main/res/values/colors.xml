@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="theme_body">#cc22292c</color>
+    <color name="black">#000000</color>
+    <color name="status_bar">#303135</color>
+    <color name="top_bar">#9f556061</color>
+
+    <color name="ob_color_white">#FFFFFF</color>
+    <color name="header_background">#673ab7</color>
+    <color name="header_text">#fff</color>
+    <color name="main_red">#e14d2e</color>
+    <color name="main_light_red">#f05450</color>
+    <color name="main_bg">#f5f6f5</color>
+    <color name="line">#e1e7e2</color>
+    <color name="text_3">#333333</color>
+    <color name="text_6">#666666</color>
+    <color name="text_9">#999999</color>
+    <color name="text_c">#cccccc</color>
+    <color name="btn_red">#ef544f</color>
+    <color name="txt_red">#f3534b</color>
+    <color name="price_yellow">#fcf02d</color>
+    <color name="dark_green">#43AF55</color>
+
+    <color name="shadow">#22000000</color>
+    <color name="red_shadow">#22FFCCCB</color>
+
+
+    <color name="alpha_white">#88FFFFFF</color>
+    <color name="alpha_black">#88000000</color>
+
+    <color name="default_shadow_color">#88757575</color>
+    <color name="default_fill_color">#ffffff</color>
+
+    <color name="transparent">#00000000</color>
+
+    <color name="main_color" >#48c55c</color>
+    <color name="secondary_color">#fc8724</color>
+    <color name="normal_background_color">#f5f6f5</color>
+
+
+    <color name="ob_navigation_default_bg_color">#EEE8ECEE</color>
+    <color name="ob_navigation_focus_bg_color">#6fbcda</color>
+    <color name="ob_navigation_unfocus_bg_color">#f4f4f5</color>
+    <!--<color name="ob_navigation_unfocus_bg_color">#d8d8d8</color>-->
+    <color name="ob_navigation_unfocus_text_color">#504547</color>
+</resources>

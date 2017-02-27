@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="scrollview"/>
+    <item name="gridview" type="id"/>
+    <item name="webview" type="id"/>
+    <item name="ptr_layout" type="id"/>
+
+    <item name="node_header" type="id" />
+    <item name="node_items" type="id" />
+    <item name="tree_items" type="id" />
+
+    <!--imagepicker-->
+    <item name="text_num" type="id" />
+    <item name="edit_speak_content" type="id" />
+    <item name="recyclerView" type="id" />
+
+    <item name="selected_view" type="id"/>
+
+    <item type="id" name="expandable_toggle_button" />
+    <item type="id" name="expandable" />
+
+    <item name="BaseQuickAdapter_viewholder_support" type="id"/>
+    <item name="BaseQuickAdapter_swiping_support" type="id"/>
+    <item name="BaseQuickAdapter_dragging_support" type="id"/>
+</resources>

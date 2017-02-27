@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/round_white_backgroud">
+    <TextView
+        android:id="@+id/btn_dialog_cancle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/ob_color_white"
+        android:gravity="center"
+        android:paddingLeft="16dp"
+        android:background="@mipmap/dialog_cancel"
+        android:layout_alignParentRight="true"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="30dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp">
+        <TextView
+            android:id="@+id/tv_dialog_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text_3"
+            android:gravity="center"
+            android:textSize="@dimen/textsize_big_title"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:id="@+id/tv_dialog_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical|left"
+            android:layout_marginTop="30dp"
+            android:textSize="@dimen/text_three_two"
+            android:text="我是一代"
+      />
+
+        <TextView
+            android:id="@+id/btn_dialog_submit"
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:text="完成"
+            android:textColor="@color/ob_color_white"
+            android:gravity="center"
+            android:background="@drawable/btn_green_selector"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="30dp"
+            android:textSize="@dimen/textsize_content_txt"
+            android:layout_marginBottom="30dp"/>
+    </LinearLayout>
+
+</RelativeLayout>
